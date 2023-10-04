@@ -3,7 +3,7 @@ package builder;
 public class Client {
 
     public static void main(String[] args) {
-        Person person = new Person.Builder()
+        Person person = Person.builder()
                 .firstName("Onkar")
                 .lastName("Marbhal")
                 .description("Architect")

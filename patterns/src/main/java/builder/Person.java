@@ -26,6 +26,10 @@ public class Person {
         this.age = person.age;
     }
 
+    public static Builder builder(){
+        return new Builder();
+    }
+
     public static class Builder {
         private final Person person;
 
