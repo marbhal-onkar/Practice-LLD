@@ -6,11 +6,9 @@ public class ThreadSafeSingleton {
 
     private ThreadSafeSingleton(){}
 
-    public static ThreadSafeSingleton getInstance() {
-
+    public static ThreadSafeSingleton getInstanceUsingDoubleLocking() {
         if (INSTANCE == null){
             synchronized (ThreadSafeSingleton.class) {
-
                 if(INSTANCE == null){
                     INSTANCE = new ThreadSafeSingleton();
                 }
