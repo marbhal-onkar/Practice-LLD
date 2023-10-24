@@ -1,4 +1,4 @@
-package prototype;
+package designpatterns.prototype;
 
 public class Demo {
 

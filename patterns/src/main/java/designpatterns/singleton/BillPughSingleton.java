@@ -1,4 +1,4 @@
-package singleton;
+package designpatterns.singleton;
 
 /**
  * Most widely used implementation, it doesn’t require synchronization.

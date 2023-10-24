@@ -1,4 +1,4 @@
-package singleton;
+package designpatterns.singleton;
 
 /**
  * To overcome this situation with Reflection,

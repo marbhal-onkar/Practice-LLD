@@ -1,4 +1,4 @@
-package prototype;
+package designpatterns.prototype;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
